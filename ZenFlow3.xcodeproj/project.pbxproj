@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		439EE5CD1AB5109C000858D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5CC1AB5109C000858D2 /* AppDelegate.swift */; };
+		439EE5CF1AB5109C000858D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5CE1AB5109C000858D2 /* ViewController.swift */; };
+		439EE5D21AB5109C000858D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439EE5D01AB5109C000858D2 /* Main.storyboard */; };
+		439EE5D41AB5109C000858D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439EE5D31AB5109C000858D2 /* Images.xcassets */; };
+		439EE5D71AB5109C000858D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439EE5D51AB5109C000858D2 /* LaunchScreen.xib */; };
+		439EE5E31AB5109C000858D2 /* ZenFlow3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5E21AB5109C000858D2 /* ZenFlow3Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		439EE5DD1AB5109C000858D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 439EE5BF1AB5109C000858D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 439EE5C61AB5109C000858D2;
+			remoteInfo = ZenFlow3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		439EE5C71AB5109C000858D2 /* ZenFlow3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenFlow3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		439EE5CB1AB5109C000858D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439EE5CC1AB5109C000858D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		439EE5CE1AB5109C000858D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		439EE5D11AB5109C000858D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		439EE5D31AB5109C000858D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		439EE5D61AB5109C000858D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		439EE5DC1AB5109C000858D2 /* ZenFlow3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenFlow3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		439EE5E11AB5109C000858D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439EE5E21AB5109C000858D2 /* ZenFlow3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenFlow3Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		439EE5C41AB5109C000858D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439EE5D91AB5109C000858D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439EE5BE1AB5109C000858D2 = {
+			isa = PBXGroup;
+			children = (
+				439EE5C91AB5109C000858D2 /* ZenFlow3 */,
+				439EE5DF1AB5109C000858D2 /* ZenFlow3Tests */,
+				439EE5C81AB5109C000858D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		439EE5C81AB5109C000858D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439EE5C71AB5109C000858D2 /* ZenFlow3.app */,
+				439EE5DC1AB5109C000858D2 /* ZenFlow3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439EE5C91AB5109C000858D2 /* ZenFlow3 */ = {
+			isa = PBXGroup;
+			children = (
+				439EE5CC1AB5109C000858D2 /* AppDelegate.swift */,
+				439EE5CE1AB5109C000858D2 /* ViewController.swift */,
+				439EE5D01AB5109C000858D2 /* Main.storyboard */,
+				439EE5D31AB5109C000858D2 /* Images.xcassets */,
+				439EE5D51AB5109C000858D2 /* LaunchScreen.xib */,
+				439EE5CA1AB5109C000858D2 /* Supporting Files */,
+			);
+			path = ZenFlow3;
+			sourceTree = "<group>";
+		};
+		439EE5CA1AB5109C000858D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439EE5CB1AB5109C000858D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		439EE5DF1AB5109C000858D2 /* ZenFlow3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				439EE5E21AB5109C000858D2 /* ZenFlow3Tests.swift */,
+				439EE5E01AB5109C000858D2 /* Supporting Files */,
+			);
+			path = ZenFlow3Tests;
+			sourceTree = "<group>";
+		};
+		439EE5E01AB5109C000858D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439EE5E11AB5109C000858D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		439EE5C61AB5109C000858D2 /* ZenFlow3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439EE5E61AB5109C000858D2 /* Build configuration list for PBXNativeTarget "ZenFlow3" */;
+			buildPhases = (
+				439EE5C31AB5109C000858D2 /* Sources */,
+				439EE5C41AB5109C000858D2 /* Frameworks */,
+				439EE5C51AB5109C000858D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenFlow3;
+			productName = ZenFlow3;
+			productReference = 439EE5C71AB5109C000858D2 /* ZenFlow3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		439EE5DB1AB5109C000858D2 /* ZenFlow3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439EE5E91AB5109C000858D2 /* Build configuration list for PBXNativeTarget "ZenFlow3Tests" */;
+			buildPhases = (
+				439EE5D81AB5109C000858D2 /* Sources */,
+				439EE5D91AB5109C000858D2 /* Frameworks */,
+				439EE5DA1AB5109C000858D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				439EE5DE1AB5109C000858D2 /* PBXTargetDependency */,
+			);
+			name = ZenFlow3Tests;
+			productName = ZenFlow3Tests;
+			productReference = 439EE5DC1AB5109C000858D2 /* ZenFlow3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		439EE5BF1AB5109C000858D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Alexander Goddijn";
+				TargetAttributes = {
+					439EE5C61AB5109C000858D2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					439EE5DB1AB5109C000858D2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 439EE5C61AB5109C000858D2;
+					};
+				};
+			};
+			buildConfigurationList = 439EE5C21AB5109C000858D2 /* Build configuration list for PBXProject "ZenFlow3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 439EE5BE1AB5109C000858D2;
+			productRefGroup = 439EE5C81AB5109C000858D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				439EE5C61AB5109C000858D2 /* ZenFlow3 */,
+				439EE5DB1AB5109C000858D2 /* ZenFlow3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439EE5C51AB5109C000858D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439EE5D21AB5109C000858D2 /* Main.storyboard in Resources */,
+				439EE5D71AB5109C000858D2 /* LaunchScreen.xib in Resources */,
+				439EE5D41AB5109C000858D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439EE5DA1AB5109C000858D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		439EE5C31AB5109C000858D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439EE5CF1AB5109C000858D2 /* ViewController.swift in Sources */,
+				439EE5CD1AB5109C000858D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439EE5D81AB5109C000858D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439EE5E31AB5109C000858D2 /* ZenFlow3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		439EE5DE1AB5109C000858D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 439EE5C61AB5109C000858D2 /* ZenFlow3 */;
+			targetProxy = 439EE5DD1AB5109C000858D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		439EE5D01AB5109C000858D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439EE5D11AB5109C000858D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		439EE5D51AB5109C000858D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439EE5D61AB5109C000858D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		439EE5E41AB5109C000858D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		439EE5E51AB5109C000858D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		439EE5E71AB5109C000858D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZenFlow3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		439EE5E81AB5109C000858D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZenFlow3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		439EE5EA1AB5109C000858D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZenFlow3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenFlow3.app/ZenFlow3";
+			};
+			name = Debug;
+		};
+		439EE5EB1AB5109C000858D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZenFlow3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenFlow3.app/ZenFlow3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		439EE5C21AB5109C000858D2 /* Build configuration list for PBXProject "ZenFlow3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439EE5E41AB5109C000858D2 /* Debug */,
+				439EE5E51AB5109C000858D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439EE5E61AB5109C000858D2 /* Build configuration list for PBXNativeTarget "ZenFlow3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439EE5E71AB5109C000858D2 /* Debug */,
+				439EE5E81AB5109C000858D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		439EE5E91AB5109C000858D2 /* Build configuration list for PBXNativeTarget "ZenFlow3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439EE5EA1AB5109C000858D2 /* Debug */,
+				439EE5EB1AB5109C000858D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 439EE5BF1AB5109C000858D2 /* Project object */;
+}
