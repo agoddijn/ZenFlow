@@ -10,16 +10,6 @@
 		4306E9581ABCD05F00A56024 /* CloudinaryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4306E9571ABCD05F00A56024 /* CloudinaryFactory.m */; };
 		4306E95F1ABCE21C00A56024 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4306E9461ABCBE6600A56024 /* AVFoundation.framework */; };
 		4306E9601ABCE24200A56024 /* libCloudinary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4306E94D1ABCCEB800A56024 /* libCloudinary.a */; };
-		430E352C1AB76EB300EC750A /* CaptureButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E352B1AB76EB300EC750A /* CaptureButton.png */; };
-		430E352E1AB76F4300EC750A /* CaptureButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E352D1AB76F4300EC750A /* CaptureButton2.png */; };
-		430E353B1AB7F34000EC750A /* 58 - Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35351AB7F34000EC750A /* 58 - Settings.png */; };
-		430E353C1AB7F34000EC750A /* 76 - iPad (@1x).png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35361AB7F34000EC750A /* 76 - iPad (@1x).png */; };
-		430E353D1AB7F34000EC750A /* 80 - Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35371AB7F34000EC750A /* 80 - Spotlight.png */; };
-		430E353E1AB7F34000EC750A /* 120 - iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35381AB7F34000EC750A /* 120 - iPhone.png */; };
-		430E353F1AB7F34000EC750A /* 152 - iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35391AB7F34000EC750A /* 152 - iPad.png */; };
-		430E35401AB7F34000EC750A /* 180 - iPhone 6 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E353A1AB7F34000EC750A /* 180 - iPhone 6 Plus.png */; };
-		430E35421AB898BB00EC750A /* Rotate Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35411AB898BB00EC750A /* Rotate Camera.png */; };
-		430E35441AB898C000EC750A /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35431AB898C000EC750A /* Library.png */; };
 		439EE5CD1AB5109C000858D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5CC1AB5109C000858D2 /* AppDelegate.swift */; };
 		439EE5D21AB5109C000858D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439EE5D01AB5109C000858D2 /* Main.storyboard */; };
 		439EE5D41AB5109C000858D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439EE5D31AB5109C000858D2 /* Images.xcassets */; };
@@ -30,6 +20,16 @@
 		439EE5F31AB53927000858D2 /* ImageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F21AB53927000858D2 /* ImageCellTableViewCell.swift */; };
 		439EE5F51AB53E20000858D2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F41AB53E20000858D2 /* StartViewController.swift */; };
 		439EE5F71AB54684000858D2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F61AB54684000858D2 /* Queue.swift */; };
+		43EBD6031ACDB72D008CBB3A /* 58 - Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5F91ACDB72D008CBB3A /* 58 - Settings.png */; };
+		43EBD6041ACDB72D008CBB3A /* 76 - iPad (@1x).png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5FA1ACDB72D008CBB3A /* 76 - iPad (@1x).png */; };
+		43EBD6051ACDB72D008CBB3A /* 80 - Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5FB1ACDB72D008CBB3A /* 80 - Spotlight.png */; };
+		43EBD6061ACDB72D008CBB3A /* 120 - iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5FC1ACDB72D008CBB3A /* 120 - iPhone.png */; };
+		43EBD6071ACDB72D008CBB3A /* 152 - iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5FD1ACDB72D008CBB3A /* 152 - iPad.png */; };
+		43EBD6081ACDB72D008CBB3A /* 180 - iPhone 6 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5FE1ACDB72D008CBB3A /* 180 - iPhone 6 Plus.png */; };
+		43EBD6091ACDB72D008CBB3A /* CaptureButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5FF1ACDB72D008CBB3A /* CaptureButton.png */; };
+		43EBD60A1ACDB72D008CBB3A /* CaptureButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD6001ACDB72D008CBB3A /* CaptureButton2.png */; };
+		43EBD60B1ACDB72D008CBB3A /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD6011ACDB72D008CBB3A /* Library.png */; };
+		43EBD60C1ACDB72D008CBB3A /* Rotate Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD6021ACDB72D008CBB3A /* Rotate Camera.png */; };
 		43FB20B41AB8DD3900DD71BD /* CaptureSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB20B31AB8DD3900DD71BD /* CaptureSessionManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,16 +55,6 @@
 		4306E95C1ABCD0F900A56024 /* Cloudinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloudinary.h; sourceTree = "<group>"; };
 		4306E95D1ABCD0F900A56024 /* CLTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTransformation.h; sourceTree = "<group>"; };
 		4306E95E1ABCD0F900A56024 /* CLUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLUploader.h; sourceTree = "<group>"; };
-		430E352B1AB76EB300EC750A /* CaptureButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CaptureButton.png; path = ../../Icons/CaptureButton.png; sourceTree = "<group>"; };
-		430E352D1AB76F4300EC750A /* CaptureButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CaptureButton2.png; path = ../../Icons/CaptureButton2.png; sourceTree = "<group>"; };
-		430E35351AB7F34000EC750A /* 58 - Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "58 - Settings.png"; path = "../../Icons/58 - Settings.png"; sourceTree = "<group>"; };
-		430E35361AB7F34000EC750A /* 76 - iPad (@1x).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "76 - iPad (@1x).png"; path = "../../Icons/76 - iPad (@1x).png"; sourceTree = "<group>"; };
-		430E35371AB7F34000EC750A /* 80 - Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "80 - Spotlight.png"; path = "../../Icons/80 - Spotlight.png"; sourceTree = "<group>"; };
-		430E35381AB7F34000EC750A /* 120 - iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "120 - iPhone.png"; path = "../../Icons/120 - iPhone.png"; sourceTree = "<group>"; };
-		430E35391AB7F34000EC750A /* 152 - iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "152 - iPad.png"; path = "../../Icons/152 - iPad.png"; sourceTree = "<group>"; };
-		430E353A1AB7F34000EC750A /* 180 - iPhone 6 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "180 - iPhone 6 Plus.png"; path = "../../Icons/180 - iPhone 6 Plus.png"; sourceTree = "<group>"; };
-		430E35411AB898BB00EC750A /* Rotate Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rotate Camera.png"; path = "../../Icons/Rotate Camera.png"; sourceTree = "<group>"; };
-		430E35431AB898C000EC750A /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Library.png; path = ../../Icons/Library.png; sourceTree = "<group>"; };
 		439EE5C71AB5109C000858D2 /* ZenFlow3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenFlow3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		439EE5CB1AB5109C000858D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439EE5CC1AB5109C000858D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +69,16 @@
 		439EE5F21AB53927000858D2 /* ImageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCellTableViewCell.swift; sourceTree = "<group>"; };
 		439EE5F41AB53E20000858D2 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		439EE5F61AB54684000858D2 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		43EBD5F91ACDB72D008CBB3A /* 58 - Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "58 - Settings.png"; sourceTree = "<group>"; };
+		43EBD5FA1ACDB72D008CBB3A /* 76 - iPad (@1x).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76 - iPad (@1x).png"; sourceTree = "<group>"; };
+		43EBD5FB1ACDB72D008CBB3A /* 80 - Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80 - Spotlight.png"; sourceTree = "<group>"; };
+		43EBD5FC1ACDB72D008CBB3A /* 120 - iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "120 - iPhone.png"; sourceTree = "<group>"; };
+		43EBD5FD1ACDB72D008CBB3A /* 152 - iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "152 - iPad.png"; sourceTree = "<group>"; };
+		43EBD5FE1ACDB72D008CBB3A /* 180 - iPhone 6 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "180 - iPhone 6 Plus.png"; sourceTree = "<group>"; };
+		43EBD5FF1ACDB72D008CBB3A /* CaptureButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CaptureButton.png; sourceTree = "<group>"; };
+		43EBD6001ACDB72D008CBB3A /* CaptureButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CaptureButton2.png; sourceTree = "<group>"; };
+		43EBD6011ACDB72D008CBB3A /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Library.png; sourceTree = "<group>"; };
+		43EBD6021ACDB72D008CBB3A /* Rotate Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rotate Camera.png"; sourceTree = "<group>"; };
 		43FB20B31AB8DD3900DD71BD /* CaptureSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,16 +168,16 @@
 		439EE5CA1AB5109C000858D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				430E35431AB898C000EC750A /* Library.png */,
-				430E35411AB898BB00EC750A /* Rotate Camera.png */,
-				430E35351AB7F34000EC750A /* 58 - Settings.png */,
-				430E35361AB7F34000EC750A /* 76 - iPad (@1x).png */,
-				430E35371AB7F34000EC750A /* 80 - Spotlight.png */,
-				430E35381AB7F34000EC750A /* 120 - iPhone.png */,
-				430E35391AB7F34000EC750A /* 152 - iPad.png */,
-				430E353A1AB7F34000EC750A /* 180 - iPhone 6 Plus.png */,
-				430E352D1AB76F4300EC750A /* CaptureButton2.png */,
-				430E352B1AB76EB300EC750A /* CaptureButton.png */,
+				43EBD5F91ACDB72D008CBB3A /* 58 - Settings.png */,
+				43EBD5FA1ACDB72D008CBB3A /* 76 - iPad (@1x).png */,
+				43EBD5FB1ACDB72D008CBB3A /* 80 - Spotlight.png */,
+				43EBD5FC1ACDB72D008CBB3A /* 120 - iPhone.png */,
+				43EBD5FD1ACDB72D008CBB3A /* 152 - iPad.png */,
+				43EBD5FE1ACDB72D008CBB3A /* 180 - iPhone 6 Plus.png */,
+				43EBD5FF1ACDB72D008CBB3A /* CaptureButton.png */,
+				43EBD6001ACDB72D008CBB3A /* CaptureButton2.png */,
+				43EBD6011ACDB72D008CBB3A /* Library.png */,
+				43EBD6021ACDB72D008CBB3A /* Rotate Camera.png */,
 				439EE5CB1AB5109C000858D2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -281,18 +281,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43EBD6051ACDB72D008CBB3A /* 80 - Spotlight.png in Resources */,
+				43EBD6071ACDB72D008CBB3A /* 152 - iPad.png in Resources */,
 				439EE5D21AB5109C000858D2 /* Main.storyboard in Resources */,
-				430E352C1AB76EB300EC750A /* CaptureButton.png in Resources */,
-				430E353C1AB7F34000EC750A /* 76 - iPad (@1x).png in Resources */,
-				430E353D1AB7F34000EC750A /* 80 - Spotlight.png in Resources */,
-				430E35421AB898BB00EC750A /* Rotate Camera.png in Resources */,
+				43EBD60A1ACDB72D008CBB3A /* CaptureButton2.png in Resources */,
+				43EBD60C1ACDB72D008CBB3A /* Rotate Camera.png in Resources */,
+				43EBD6041ACDB72D008CBB3A /* 76 - iPad (@1x).png in Resources */,
+				43EBD60B1ACDB72D008CBB3A /* Library.png in Resources */,
+				43EBD6031ACDB72D008CBB3A /* 58 - Settings.png in Resources */,
+				43EBD6061ACDB72D008CBB3A /* 120 - iPhone.png in Resources */,
 				439EE5D41AB5109C000858D2 /* Images.xcassets in Resources */,
-				430E353B1AB7F34000EC750A /* 58 - Settings.png in Resources */,
-				430E35441AB898C000EC750A /* Library.png in Resources */,
-				430E353E1AB7F34000EC750A /* 120 - iPhone.png in Resources */,
-				430E35401AB7F34000EC750A /* 180 - iPhone 6 Plus.png in Resources */,
-				430E352E1AB76F4300EC750A /* CaptureButton2.png in Resources */,
-				430E353F1AB7F34000EC750A /* 152 - iPad.png in Resources */,
+				43EBD6081ACDB72D008CBB3A /* 180 - iPhone 6 Plus.png in Resources */,
+				43EBD6091ACDB72D008CBB3A /* CaptureButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
