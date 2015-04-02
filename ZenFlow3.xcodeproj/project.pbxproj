@@ -20,6 +20,7 @@
 		439EE5F31AB53927000858D2 /* ImageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F21AB53927000858D2 /* ImageCellTableViewCell.swift */; };
 		439EE5F51AB53E20000858D2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F41AB53E20000858D2 /* StartViewController.swift */; };
 		439EE5F71AB54684000858D2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F61AB54684000858D2 /* Queue.swift */; };
+		43A9AC131ACDC95C00192381 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A9AC121ACDC95C00192381 /* Firebase.framework */; };
 		43EBD6031ACDB72D008CBB3A /* 58 - Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5F91ACDB72D008CBB3A /* 58 - Settings.png */; };
 		43EBD6041ACDB72D008CBB3A /* 76 - iPad (@1x).png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5FA1ACDB72D008CBB3A /* 76 - iPad (@1x).png */; };
 		43EBD6051ACDB72D008CBB3A /* 80 - Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EBD5FB1ACDB72D008CBB3A /* 80 - Spotlight.png */; };
@@ -46,7 +47,7 @@
 /* Begin PBXFileReference section */
 		4306E9461ABCBE6600A56024 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4306E94D1ABCCEB800A56024 /* libCloudinary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCloudinary.a; sourceTree = "<group>"; };
-		4306E9541ABCD03300A56024 /* CloudinaryBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudinaryBridgingHeader.h; sourceTree = "<group>"; };
+		4306E9541ABCD03300A56024 /* FrameworkBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkBridgingHeader.h; sourceTree = "<group>"; };
 		4306E9551ABCD04E00A56024 /* CloudinaryFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudinaryFactory.h; sourceTree = "<group>"; };
 		4306E9561ABCD05E00A56024 /* ZenFlow3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenFlow3-Bridging-Header.h"; sourceTree = "<group>"; };
 		4306E9571ABCD05F00A56024 /* CloudinaryFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudinaryFactory.m; sourceTree = SOURCE_ROOT; };
@@ -69,6 +70,7 @@
 		439EE5F21AB53927000858D2 /* ImageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCellTableViewCell.swift; sourceTree = "<group>"; };
 		439EE5F41AB53E20000858D2 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		439EE5F61AB54684000858D2 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		43A9AC121ACDC95C00192381 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		43EBD5F91ACDB72D008CBB3A /* 58 - Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "58 - Settings.png"; sourceTree = "<group>"; };
 		43EBD5FA1ACDB72D008CBB3A /* 76 - iPad (@1x).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76 - iPad (@1x).png"; sourceTree = "<group>"; };
 		43EBD5FB1ACDB72D008CBB3A /* 80 - Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80 - Spotlight.png"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4306E9601ABCE24200A56024 /* libCloudinary.a in Frameworks */,
+				43A9AC131ACDC95C00192381 /* Firebase.framework in Frameworks */,
 				4306E95F1ABCE21C00A56024 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,6 +108,7 @@
 		4306E94F1ABCCEBD00A56024 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43A9AC121ACDC95C00192381 /* Firebase.framework */,
 				4306E94D1ABCCEB800A56024 /* libCloudinary.a */,
 				4306E9461ABCBE6600A56024 /* AVFoundation.framework */,
 			);
@@ -127,7 +131,7 @@
 		439EE5BE1AB5109C000858D2 = {
 			isa = PBXGroup;
 			children = (
-				4306E9541ABCD03300A56024 /* CloudinaryBridgingHeader.h */,
+				4306E9541ABCD03300A56024 /* FrameworkBridgingHeader.h */,
 				4306E9551ABCD04E00A56024 /* CloudinaryFactory.h */,
 				4306E9591ABCD0F900A56024 /* Cloudinary */,
 				4306E94F1ABCCEBD00A56024 /* Frameworks */,
@@ -438,16 +442,24 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ZenFlow3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-force_load",
+					libCloudinary.a,
+				);
 				PRODUCT_NAME = ZenFlow3;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = CloudinaryBridgingHeader.h;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = FrameworkBridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -460,16 +472,24 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ZenFlow3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-force_load",
+					libCloudinary.a,
+				);
 				PRODUCT_NAME = ZenFlow3;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = CloudinaryBridgingHeader.h;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = FrameworkBridgingHeader.h;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
