@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4306E9581ABCD05F00A56024 /* CloudinaryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4306E9571ABCD05F00A56024 /* CloudinaryFactory.m */; };
+		4306E95F1ABCE21C00A56024 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4306E9461ABCBE6600A56024 /* AVFoundation.framework */; };
+		4306E9601ABCE24200A56024 /* libCloudinary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4306E94D1ABCCEB800A56024 /* libCloudinary.a */; };
+		430E352C1AB76EB300EC750A /* CaptureButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E352B1AB76EB300EC750A /* CaptureButton.png */; };
+		430E352E1AB76F4300EC750A /* CaptureButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E352D1AB76F4300EC750A /* CaptureButton2.png */; };
+		430E353B1AB7F34000EC750A /* 58 - Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35351AB7F34000EC750A /* 58 - Settings.png */; };
+		430E353C1AB7F34000EC750A /* 76 - iPad (@1x).png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35361AB7F34000EC750A /* 76 - iPad (@1x).png */; };
+		430E353D1AB7F34000EC750A /* 80 - Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35371AB7F34000EC750A /* 80 - Spotlight.png */; };
+		430E353E1AB7F34000EC750A /* 120 - iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35381AB7F34000EC750A /* 120 - iPhone.png */; };
+		430E353F1AB7F34000EC750A /* 152 - iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35391AB7F34000EC750A /* 152 - iPad.png */; };
+		430E35401AB7F34000EC750A /* 180 - iPhone 6 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E353A1AB7F34000EC750A /* 180 - iPhone 6 Plus.png */; };
+		430E35421AB898BB00EC750A /* Rotate Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35411AB898BB00EC750A /* Rotate Camera.png */; };
+		430E35441AB898C000EC750A /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 430E35431AB898C000EC750A /* Library.png */; };
 		439EE5CD1AB5109C000858D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5CC1AB5109C000858D2 /* AppDelegate.swift */; };
-		439EE5CF1AB5109C000858D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5CE1AB5109C000858D2 /* ViewController.swift */; };
 		439EE5D21AB5109C000858D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439EE5D01AB5109C000858D2 /* Main.storyboard */; };
 		439EE5D41AB5109C000858D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439EE5D31AB5109C000858D2 /* Images.xcassets */; };
-		439EE5D71AB5109C000858D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439EE5D51AB5109C000858D2 /* LaunchScreen.xib */; };
 		439EE5E31AB5109C000858D2 /* ZenFlow3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5E21AB5109C000858D2 /* ZenFlow3Tests.swift */; };
+		439EE5ED1AB51141000858D2 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5EC1AB51141000858D2 /* CaptureViewController.swift */; };
+		439EE5EF1AB51153000858D2 /* FlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5EE1AB51153000858D2 /* FlowViewController.swift */; };
+		439EE5F11AB531C7000858D2 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F01AB531C7000858D2 /* PhotoManager.swift */; };
+		439EE5F31AB53927000858D2 /* ImageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F21AB53927000858D2 /* ImageCellTableViewCell.swift */; };
+		439EE5F51AB53E20000858D2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F41AB53E20000858D2 /* StartViewController.swift */; };
+		439EE5F71AB54684000858D2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439EE5F61AB54684000858D2 /* Queue.swift */; };
+		43FB20B41AB8DD3900DD71BD /* CaptureSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB20B31AB8DD3900DD71BD /* CaptureSessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +44,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4306E9461ABCBE6600A56024 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4306E94D1ABCCEB800A56024 /* libCloudinary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCloudinary.a; sourceTree = "<group>"; };
+		4306E9541ABCD03300A56024 /* CloudinaryBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudinaryBridgingHeader.h; sourceTree = "<group>"; };
+		4306E9551ABCD04E00A56024 /* CloudinaryFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudinaryFactory.h; sourceTree = "<group>"; };
+		4306E9561ABCD05E00A56024 /* ZenFlow3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenFlow3-Bridging-Header.h"; sourceTree = "<group>"; };
+		4306E9571ABCD05F00A56024 /* CloudinaryFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudinaryFactory.m; sourceTree = SOURCE_ROOT; };
+		4306E95A1ABCD0F900A56024 /* CLCloudinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCloudinary.h; sourceTree = "<group>"; };
+		4306E95B1ABCD0F900A56024 /* CLEagerTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEagerTransformation.h; sourceTree = "<group>"; };
+		4306E95C1ABCD0F900A56024 /* Cloudinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloudinary.h; sourceTree = "<group>"; };
+		4306E95D1ABCD0F900A56024 /* CLTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTransformation.h; sourceTree = "<group>"; };
+		4306E95E1ABCD0F900A56024 /* CLUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLUploader.h; sourceTree = "<group>"; };
+		430E352B1AB76EB300EC750A /* CaptureButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CaptureButton.png; path = ../../Icons/CaptureButton.png; sourceTree = "<group>"; };
+		430E352D1AB76F4300EC750A /* CaptureButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CaptureButton2.png; path = ../../Icons/CaptureButton2.png; sourceTree = "<group>"; };
+		430E35351AB7F34000EC750A /* 58 - Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "58 - Settings.png"; path = "../../Icons/58 - Settings.png"; sourceTree = "<group>"; };
+		430E35361AB7F34000EC750A /* 76 - iPad (@1x).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "76 - iPad (@1x).png"; path = "../../Icons/76 - iPad (@1x).png"; sourceTree = "<group>"; };
+		430E35371AB7F34000EC750A /* 80 - Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "80 - Spotlight.png"; path = "../../Icons/80 - Spotlight.png"; sourceTree = "<group>"; };
+		430E35381AB7F34000EC750A /* 120 - iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "120 - iPhone.png"; path = "../../Icons/120 - iPhone.png"; sourceTree = "<group>"; };
+		430E35391AB7F34000EC750A /* 152 - iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "152 - iPad.png"; path = "../../Icons/152 - iPad.png"; sourceTree = "<group>"; };
+		430E353A1AB7F34000EC750A /* 180 - iPhone 6 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "180 - iPhone 6 Plus.png"; path = "../../Icons/180 - iPhone 6 Plus.png"; sourceTree = "<group>"; };
+		430E35411AB898BB00EC750A /* Rotate Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rotate Camera.png"; path = "../../Icons/Rotate Camera.png"; sourceTree = "<group>"; };
+		430E35431AB898C000EC750A /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Library.png; path = ../../Icons/Library.png; sourceTree = "<group>"; };
 		439EE5C71AB5109C000858D2 /* ZenFlow3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenFlow3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		439EE5CB1AB5109C000858D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439EE5CC1AB5109C000858D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		439EE5CE1AB5109C000858D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		439EE5D11AB5109C000858D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		439EE5D31AB5109C000858D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		439EE5D61AB5109C000858D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		439EE5DC1AB5109C000858D2 /* ZenFlow3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenFlow3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		439EE5E11AB5109C000858D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439EE5E21AB5109C000858D2 /* ZenFlow3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenFlow3Tests.swift; sourceTree = "<group>"; };
+		439EE5EC1AB51141000858D2 /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		439EE5EE1AB51153000858D2 /* FlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowViewController.swift; sourceTree = "<group>"; };
+		439EE5F01AB531C7000858D2 /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		439EE5F21AB53927000858D2 /* ImageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCellTableViewCell.swift; sourceTree = "<group>"; };
+		439EE5F41AB53E20000858D2 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		439EE5F61AB54684000858D2 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		43FB20B31AB8DD3900DD71BD /* CaptureSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4306E9601ABCE24200A56024 /* libCloudinary.a in Frameworks */,
+				4306E95F1ABCE21C00A56024 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +102,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4306E94F1ABCCEBD00A56024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4306E94D1ABCCEB800A56024 /* libCloudinary.a */,
+				4306E9461ABCBE6600A56024 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4306E9591ABCD0F900A56024 /* Cloudinary */ = {
+			isa = PBXGroup;
+			children = (
+				4306E9571ABCD05F00A56024 /* CloudinaryFactory.m */,
+				4306E95A1ABCD0F900A56024 /* CLCloudinary.h */,
+				4306E95B1ABCD0F900A56024 /* CLEagerTransformation.h */,
+				4306E95C1ABCD0F900A56024 /* Cloudinary.h */,
+				4306E95D1ABCD0F900A56024 /* CLTransformation.h */,
+				4306E95E1ABCD0F900A56024 /* CLUploader.h */,
+			);
+			path = Cloudinary;
+			sourceTree = "<group>";
+		};
 		439EE5BE1AB5109C000858D2 = {
 			isa = PBXGroup;
 			children = (
+				4306E9541ABCD03300A56024 /* CloudinaryBridgingHeader.h */,
+				4306E9551ABCD04E00A56024 /* CloudinaryFactory.h */,
+				4306E9591ABCD0F900A56024 /* Cloudinary */,
+				4306E94F1ABCCEBD00A56024 /* Frameworks */,
 				439EE5C91AB5109C000858D2 /* ZenFlow3 */,
 				439EE5DF1AB5109C000858D2 /* ZenFlow3Tests */,
 				439EE5C81AB5109C000858D2 /* Products */,
+				4306E9561ABCD05E00A56024 /* ZenFlow3-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +151,15 @@
 			isa = PBXGroup;
 			children = (
 				439EE5CC1AB5109C000858D2 /* AppDelegate.swift */,
-				439EE5CE1AB5109C000858D2 /* ViewController.swift */,
 				439EE5D01AB5109C000858D2 /* Main.storyboard */,
+				439EE5EC1AB51141000858D2 /* CaptureViewController.swift */,
+				43FB20B31AB8DD3900DD71BD /* CaptureSessionManager.swift */,
+				439EE5F01AB531C7000858D2 /* PhotoManager.swift */,
+				439EE5EE1AB51153000858D2 /* FlowViewController.swift */,
 				439EE5D31AB5109C000858D2 /* Images.xcassets */,
-				439EE5D51AB5109C000858D2 /* LaunchScreen.xib */,
+				439EE5F21AB53927000858D2 /* ImageCellTableViewCell.swift */,
+				439EE5F41AB53E20000858D2 /* StartViewController.swift */,
+				439EE5F61AB54684000858D2 /* Queue.swift */,
 				439EE5CA1AB5109C000858D2 /* Supporting Files */,
 			);
 			path = ZenFlow3;
@@ -90,6 +168,16 @@
 		439EE5CA1AB5109C000858D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				430E35431AB898C000EC750A /* Library.png */,
+				430E35411AB898BB00EC750A /* Rotate Camera.png */,
+				430E35351AB7F34000EC750A /* 58 - Settings.png */,
+				430E35361AB7F34000EC750A /* 76 - iPad (@1x).png */,
+				430E35371AB7F34000EC750A /* 80 - Spotlight.png */,
+				430E35381AB7F34000EC750A /* 120 - iPhone.png */,
+				430E35391AB7F34000EC750A /* 152 - iPad.png */,
+				430E353A1AB7F34000EC750A /* 180 - iPhone 6 Plus.png */,
+				430E352D1AB76F4300EC750A /* CaptureButton2.png */,
+				430E352B1AB76EB300EC750A /* CaptureButton.png */,
 				439EE5CB1AB5109C000858D2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +249,7 @@
 				TargetAttributes = {
 					439EE5C61AB5109C000858D2 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 2S3D8J8M3T;
 					};
 					439EE5DB1AB5109C000858D2 = {
 						CreatedOnToolsVersion = 6.2;
@@ -193,8 +282,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				439EE5D21AB5109C000858D2 /* Main.storyboard in Resources */,
-				439EE5D71AB5109C000858D2 /* LaunchScreen.xib in Resources */,
+				430E352C1AB76EB300EC750A /* CaptureButton.png in Resources */,
+				430E353C1AB7F34000EC750A /* 76 - iPad (@1x).png in Resources */,
+				430E353D1AB7F34000EC750A /* 80 - Spotlight.png in Resources */,
+				430E35421AB898BB00EC750A /* Rotate Camera.png in Resources */,
 				439EE5D41AB5109C000858D2 /* Images.xcassets in Resources */,
+				430E353B1AB7F34000EC750A /* 58 - Settings.png in Resources */,
+				430E35441AB898C000EC750A /* Library.png in Resources */,
+				430E353E1AB7F34000EC750A /* 120 - iPhone.png in Resources */,
+				430E35401AB7F34000EC750A /* 180 - iPhone 6 Plus.png in Resources */,
+				430E352E1AB76F4300EC750A /* CaptureButton2.png in Resources */,
+				430E353F1AB7F34000EC750A /* 152 - iPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439EE5CF1AB5109C000858D2 /* ViewController.swift in Sources */,
+				4306E9581ABCD05F00A56024 /* CloudinaryFactory.m in Sources */,
+				439EE5F11AB531C7000858D2 /* PhotoManager.swift in Sources */,
+				43FB20B41AB8DD3900DD71BD /* CaptureSessionManager.swift in Sources */,
+				439EE5F71AB54684000858D2 /* Queue.swift in Sources */,
+				439EE5F31AB53927000858D2 /* ImageCellTableViewCell.swift in Sources */,
+				439EE5ED1AB51141000858D2 /* CaptureViewController.swift in Sources */,
+				439EE5EF1AB51153000858D2 /* FlowViewController.swift in Sources */,
 				439EE5CD1AB5109C000858D2 /* AppDelegate.swift in Sources */,
+				439EE5F51AB53E20000858D2 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +347,6 @@
 				439EE5D11AB5109C000858D2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		439EE5D51AB5109C000858D2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				439EE5D61AB5109C000858D2 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,9 +435,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ZenFlow3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = ZenFlow3;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = CloudinaryBridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,9 +457,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ZenFlow3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = ZenFlow3;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = CloudinaryBridgingHeader.h;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -368,7 +488,7 @@
 				);
 				INFOPLIST_FILE = ZenFlow3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ZenFlow3Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenFlow3.app/ZenFlow3";
 			};
 			name = Debug;
@@ -383,7 +503,7 @@
 				);
 				INFOPLIST_FILE = ZenFlow3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ZenFlow3Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenFlow3.app/ZenFlow3";
 			};
 			name = Release;
@@ -407,6 +527,7 @@
 				439EE5E81AB5109C000858D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		439EE5E91AB5109C000858D2 /* Build configuration list for PBXNativeTarget "ZenFlow3Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +536,7 @@
 				439EE5EB1AB5109C000858D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
